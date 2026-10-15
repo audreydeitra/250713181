@@ -1,0 +1,33 @@
+.judul {
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline antiquewhite;
+    font-size: large;
+}
+
+.deskripsi {
+    font-size: 18px;
+    align-content: center;
+    display: flex;
+}
+
+.deskripsi p:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color:brown;
+}
+
+img:hover {
+    opacity: 50%;
+    transition: .1s ease;
+    backface-visibility: hidden;
+}
+
+
+#informasi {
+    text-align: center;
+    background-color: rgb(46, 104, 169);
+    margin-top: -10px;
+    padding: 20px;
+    color: white;
+}
